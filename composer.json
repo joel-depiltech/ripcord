@@ -1,13 +1,19 @@
 {
-    "name": "joel-depiltech/ripcord",
-    "description": "Ripcord is a very easy to use XML-RPC library for PHP.",
-    "type": "library",
-    "license": "MIT License",
-    "authors": [
-        {
-            "name": "Joël Gaujard",
-            "email": "joel@depiltech.com"
-        }
-    ],
-    "require": {}
+  "name": "joel-depiltech/ripcord",
+  "description": "Ripcord is a very easy to use XML-RPC library for PHP.",
+  "type": "library",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Joël Gaujard",
+      "email": "joel@depiltech.com",
+      "homepage": "http://www.depiltech.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "ripcord.php"
+    ]
+  }
 }
