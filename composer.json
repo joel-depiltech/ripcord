@@ -13,7 +13,8 @@
   "require": {},
   "autoload": {
     "files": [
-      "ripcord.php"
+      "ripcord.php",
+      "ripcord_client.php"
     ]
   }
 }
