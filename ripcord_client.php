@@ -482,7 +482,7 @@ class  Ripcord_Transport_Stream implements Ripcord_Transport
 		);
 		//echo '<pre>Options :';print_r($options);echo '</pre>';
 		$context = stream_context_create( $options );
-		$result  = @file_get_contents( $url, false, $context );
+		$result  = file_get_contents( $url, false, $context );
 		$this->responseHeaders = $http_response_header;
 		if ( !$result )
 		{
